@@ -18,7 +18,7 @@
 
 uni小程序SDK，是为原生App打造的可运行基于 uni-app 开发的小程序前端项目的框架，从而帮助原生App快速获取小程序的能力，效果如下：
 
-<img src="https://img-cdn-tc.dcloud.net.cn/uploads/article/20200208/17968bd5afe1e15f1b0b4965a194726f.gif" width=230>
+<img src="https://ask.dcloud.net.cn/uploads/article/20200208/17968bd5afe1e15f1b0b4965a194726f.gif" width=230>
 
 ### 为什么Uni官方提供了SDK还是要剥离出依赖？
 
@@ -72,9 +72,10 @@ A：虽然UNI官方提供了SDK，但并未提供SPM、cocoapods、Carthage依�
 [CocoaPods](http://cocoapods.org/) 是Objective-C的依赖管理器，它自动化并简化了在项目中使用第三方库的过程。 请参阅 [Get Started](http://cocoapods.org/#get_started) 有关更多详细信息的部分。
 
 #### Podfile
+<!-- source 'http://10.11.0.55/yhd-app-project/utilities/ios-librarys/YSpecs.git' -->
 ```
 # 指定私有源
-source 'http://10.11.0.55/yhd-app-project/utilities/ios-librarys/YSpecs.git'
+
 
 # target 中加入依赖
 target 'YhdSuperApp' do 
@@ -200,7 +201,7 @@ end
 
 ### 环境要求
 
-- [Swift Package Manager >=5.7](https://github.com/apple/swift-package-manager)
+<!-- - [Swift Package Manager >=5.7](https://github.com/apple/swift-package-manager) -->
 - [Cocoapods >= 1.11.x](https://guides.cocoapods.org/using/getting-started.html)
 - [XCode >= 14.x+](https://apps.apple.com/cn/app/xcode/id497799835)
 
@@ -211,6 +212,7 @@ end
 - [uniapp-uni小程序SDK-IOS内置模块](https://nativesupport.dcloud.net.cn/UniMPDocs/UseModule/ios/ios.html#)
 - [uniapp-uni小程序SDK-IOS扩展原生能力](https://nativesupport.dcloud.net.cn/UniMPDocs/Extension/ios.html)
 
+<!--
 ### 更新UniMPSDK
 
 1. [官网下载最新SDK](https://nativesupport.dcloud.net.cn/UniMPDocs/SDKDownload/ios.html)
@@ -219,6 +221,7 @@ end
 4. 更改`YUniMPSDK.podspec`中的版本号，提交代码,打版本TAG
 5. 运行 `pod repo push YSpecs YUniMPSDK.podspec --allow-warnings --verbose` 发布最新包至`cocoapods`私有库,发布过程中时间较长请耐心等待！
 6. 在项目中更改依赖版本，验证发布包是否正确
+-->
 
 <!--### framework 合并为xcframework-->
 <!--```bash-->
