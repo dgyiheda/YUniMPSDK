@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21094F594F3C02BD60947933 /* libPods-YUniMPSDKDome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C94FD008FBC1F3D9D3F9FAE /* libPods-YUniMPSDKDome.a */; };
+		F47A0CC12AB3DD19006DD3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A0CC02AB3DD19006DD3FF /* AppDelegate.swift */; };
+		F47A0CC52AB3DD19006DD3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47A0CC42AB3DD19006DD3FF /* ViewController.swift */; };
+		F47A0CCA2AB3DD1B006DD3FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47A0CC92AB3DD1B006DD3FF /* Assets.xcassets */; };
+		F47A0CCD2AB3DD1B006DD3FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47A0CCB2AB3DD1B006DD3FF /* LaunchScreen.storyboard */; };
+		F47A0CDC2AB3E404006DD3FF /* __UNI__11E9B73.wgt in Resources */ = {isa = PBXBuildFile; fileRef = F47A0CDA2AB3E404006DD3FF /* __UNI__11E9B73.wgt */; };
+		F47A0CDD2AB3E404006DD3FF /* __UNI__CBDCE04.wgt in Resources */ = {isa = PBXBuildFile; fileRef = F47A0CDB2AB3E404006DD3FF /* __UNI__CBDCE04.wgt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		016D733D11E62ED381E36B38 /* Pods-YUniMPSDKDome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUniMPSDKDome.debug.xcconfig"; path = "Target Support Files/Pods-YUniMPSDKDome/Pods-YUniMPSDKDome.debug.xcconfig"; sourceTree = "<group>"; };
+		6C94FD008FBC1F3D9D3F9FAE /* libPods-YUniMPSDKDome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YUniMPSDKDome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9C4F15429062002F3D2535 /* Pods-YUniMPSDKDome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YUniMPSDKDome.release.xcconfig"; path = "Target Support Files/Pods-YUniMPSDKDome/Pods-YUniMPSDKDome.release.xcconfig"; sourceTree = "<group>"; };
+		F47A0CBD2AB3DD19006DD3FF /* YUniMPSDKDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YUniMPSDKDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47A0CC02AB3DD19006DD3FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F47A0CC42AB3DD19006DD3FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F47A0CC92AB3DD1B006DD3FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F47A0CCC2AB3DD1B006DD3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F47A0CCE2AB3DD1B006DD3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47A0CDA2AB3E404006DD3FF /* __UNI__11E9B73.wgt */ = {isa = PBXFileReference; lastKnownFileType = file; path = __UNI__11E9B73.wgt; sourceTree = "<group>"; };
+		F47A0CDB2AB3E404006DD3FF /* __UNI__CBDCE04.wgt */ = {isa = PBXFileReference; lastKnownFileType = file; path = __UNI__CBDCE04.wgt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F47A0CBA2AB3DD19006DD3FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21094F594F3C02BD60947933 /* libPods-YUniMPSDKDome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FDE1318D75A1BEA613C63AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				016D733D11E62ED381E36B38 /* Pods-YUniMPSDKDome.debug.xcconfig */,
+				7A9C4F15429062002F3D2535 /* Pods-YUniMPSDKDome.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E40C651E9E3F4E192203999 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C94FD008FBC1F3D9D3F9FAE /* libPods-YUniMPSDKDome.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F47A0CB42AB3DD19006DD3FF = {
+			isa = PBXGroup;
+			children = (
+				F47A0CBF2AB3DD19006DD3FF /* YUniMPSDKDome */,
+				F47A0CBE2AB3DD19006DD3FF /* Products */,
+				2FDE1318D75A1BEA613C63AC /* Pods */,
+				8E40C651E9E3F4E192203999 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F47A0CBE2AB3DD19006DD3FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47A0CBD2AB3DD19006DD3FF /* YUniMPSDKDome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F47A0CBF2AB3DD19006DD3FF /* YUniMPSDKDome */ = {
+			isa = PBXGroup;
+			children = (
+				F47A0CD42AB3E3CD006DD3FF /* UniMP */,
+				F47A0CC02AB3DD19006DD3FF /* AppDelegate.swift */,
+				F47A0CC42AB3DD19006DD3FF /* ViewController.swift */,
+				F47A0CC92AB3DD1B006DD3FF /* Assets.xcassets */,
+				F47A0CCB2AB3DD1B006DD3FF /* LaunchScreen.storyboard */,
+				F47A0CCE2AB3DD1B006DD3FF /* Info.plist */,
+			);
+			path = YUniMPSDKDome;
+			sourceTree = "<group>";
+		};
+		F47A0CD42AB3E3CD006DD3FF /* UniMP */ = {
+			isa = PBXGroup;
+			children = (
+				F47A0CD92AB3E404006DD3FF /* Apps */,
+			);
+			path = UniMP;
+			sourceTree = "<group>";
+		};
+		F47A0CD92AB3E404006DD3FF /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				F47A0CDA2AB3E404006DD3FF /* __UNI__11E9B73.wgt */,
+				F47A0CDB2AB3E404006DD3FF /* __UNI__CBDCE04.wgt */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F47A0CBC2AB3DD19006DD3FF /* YUniMPSDKDome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F47A0CD12AB3DD1B006DD3FF /* Build configuration list for PBXNativeTarget "YUniMPSDKDome" */;
+			buildPhases = (
+				C5D39C4B06762B0391897F3F /* [CP] Check Pods Manifest.lock */,
+				F47A0CB92AB3DD19006DD3FF /* Sources */,
+				F47A0CBA2AB3DD19006DD3FF /* Frameworks */,
+				F47A0CBB2AB3DD19006DD3FF /* Resources */,
+				8041DB4EF6717E2CDB59EFDF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YUniMPSDKDome;
+			productName = YUniMPSDKDome;
+			productReference = F47A0CBD2AB3DD19006DD3FF /* YUniMPSDKDome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F47A0CB52AB3DD19006DD3FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F47A0CBC2AB3DD19006DD3FF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F47A0CB82AB3DD19006DD3FF /* Build configuration list for PBXProject "YUniMPSDKDome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F47A0CB42AB3DD19006DD3FF;
+			productRefGroup = F47A0CBE2AB3DD19006DD3FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F47A0CBC2AB3DD19006DD3FF /* YUniMPSDKDome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F47A0CBB2AB3DD19006DD3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47A0CCD2AB3DD1B006DD3FF /* LaunchScreen.storyboard in Resources */,
+				F47A0CCA2AB3DD1B006DD3FF /* Assets.xcassets in Resources */,
+				F47A0CDC2AB3E404006DD3FF /* __UNI__11E9B73.wgt in Resources */,
+				F47A0CDD2AB3E404006DD3FF /* __UNI__CBDCE04.wgt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8041DB4EF6717E2CDB59EFDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUniMPSDKDome/Pods-YUniMPSDKDome-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YUniMPSDKDome/Pods-YUniMPSDKDome-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YUniMPSDKDome/Pods-YUniMPSDKDome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D39C4B06762B0391897F3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YUniMPSDKDome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F47A0CB92AB3DD19006DD3FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47A0CC52AB3DD19006DD3FF /* ViewController.swift in Sources */,
+				F47A0CC12AB3DD19006DD3FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F47A0CCB2AB3DD1B006DD3FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47A0CCC2AB3DD1B006DD3FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F47A0CCF2AB3DD1B006DD3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F47A0CD02AB3DD1B006DD3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F47A0CD22AB3DD1B006DD3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016D733D11E62ED381E36B38 /* Pods-YUniMPSDKDome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KHQJUC6F3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YUniMPSDKDome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgyiheda.YUniMPSDKDome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F47A0CD32AB3DD1B006DD3FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9C4F15429062002F3D2535 /* Pods-YUniMPSDKDome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KHQJUC6F3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YUniMPSDKDome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgyiheda.YUniMPSDKDome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F47A0CB82AB3DD19006DD3FF /* Build configuration list for PBXProject "YUniMPSDKDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47A0CCF2AB3DD1B006DD3FF /* Debug */,
+				F47A0CD02AB3DD1B006DD3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F47A0CD12AB3DD1B006DD3FF /* Build configuration list for PBXNativeTarget "YUniMPSDKDome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47A0CD22AB3DD1B006DD3FF /* Debug */,
+				F47A0CD32AB3DD1B006DD3FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F47A0CB52AB3DD19006DD3FF /* Project object */;
+}

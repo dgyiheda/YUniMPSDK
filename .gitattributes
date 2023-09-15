@@ -1,0 +1,4 @@
+UniMPSDK/Features/Libs/libBaiduSpeechSDK.a filter=lfs diff=lfs merge=lfs -text
+UniMPSDK/Features/Libs/MAMapKit.framework/MAMapKit filter=lfs diff=lfs merge=lfs -text
+UniMPSDK/Features/Libs/BaiduMapAPI_Map.framework/BaiduMapAPI_Map filter=lfs diff=lfs merge=lfs -text
+UniMPSDK/Features/Libs/IJKMediaFrameworkWithSSL.framework/IJKMediaFrameworkWithSSL filter=lfs diff=lfs merge=lfs -text

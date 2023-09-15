@@ -1,0 +1,7 @@
+platform :ios, '11.0'
+
+
+target 'YUniMPSDKDome' do
+  pod 'YUniMPSDK', :path => '../../../YUniMPSDK',:modular_headers => true
+  pod 'YUniMPSDK/BaiduSDK', :path => '../../../YUniMPSDK',:modular_headers => true
+end

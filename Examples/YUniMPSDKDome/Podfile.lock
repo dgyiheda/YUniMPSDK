@@ -1,0 +1,36 @@
+PODS:
+  - YUniMPSDK (3.8.12):
+    - YUniMPSDK/Audio (= 3.8.12)
+    - YUniMPSDK/Barcode (= 3.8.12)
+    - YUniMPSDK/Camera (= 3.8.12)
+    - YUniMPSDK/Contacts (= 3.8.12)
+    - YUniMPSDK/Core (= 3.8.12)
+    - YUniMPSDK/NativeJs (= 3.8.12)
+    - YUniMPSDK/Video (= 3.8.12)
+    - YUniMPSDK/Zip (= 3.8.12)
+  - YUniMPSDK/Audio (3.8.12)
+  - YUniMPSDK/BaiduSDK (3.8.12)
+  - YUniMPSDK/Barcode (3.8.12)
+  - YUniMPSDK/Basic (3.8.12)
+  - YUniMPSDK/Camera (3.8.12)
+  - YUniMPSDK/Contacts (3.8.12)
+  - YUniMPSDK/Core (3.8.12):
+    - YUniMPSDK/Basic
+  - YUniMPSDK/NativeJs (3.8.12)
+  - YUniMPSDK/Video (3.8.12)
+  - YUniMPSDK/Zip (3.8.12)
+
+DEPENDENCIES:
+  - YUniMPSDK (from `../../../YUniMPSDK`)
+  - YUniMPSDK/BaiduSDK (from `../../../YUniMPSDK`)
+
+EXTERNAL SOURCES:
+  YUniMPSDK:
+    :path: "../../../YUniMPSDK"
+
+SPEC CHECKSUMS:
+  YUniMPSDK: 2755f05abf7d073d1c31121e274145e4b4dbf027
+
+PODFILE CHECKSUM: bfd4e0b8c339a3431cdd953b6d5cc09a49fd2da0
+
+COCOAPODS: 1.12.0
