@@ -88,12 +88,6 @@ Pod::Spec.new do |s|
         'MobileCoreServices'
     ]
   end
- 
-  # UniMPSDK Core（核心组件代码）
-  s.subspec 'Core' do |c|
-    c.ios.dependency 'YUniMPSDK/Basic'
-    c.source_files = ['YUniMPSDK/Core/*.{swift,h}']
-  end
 
    # UniMPSDK Barcode 扫码库
   s.subspec 'Barcode' do |b|
@@ -426,6 +420,12 @@ Pod::Spec.new do |s|
     sql.libraries = [
         'sqlite3.0'
     ]
+  end
+
+  # UniMPSDK Core（核心组件代码）
+  s.subspec 'Core' do |c|
+    c.ios.dependency 'YUniMPSDK/Basic'
+    c.source_files = ['YUniMPSDK/Core/*.{swift,h}']
   end
   
 end
