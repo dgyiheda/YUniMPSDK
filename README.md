@@ -7,8 +7,8 @@
   <img src="https://yhd-fe-monitor.oss-cn-shenzhen.aliyuncs.com/static/images/code.png" title="logo" float=left>
 </p>
 
-[![UniMP](https://img.shields.io/badge/UniMPSDK-3.6.18-forestgreen?style=flat-square)](https://nativesupport.dcloud.net.cn/README)
-[![Swift](https://img.shields.io/badge/Swift-5.7-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.7-Orange?style=flat-square)
+[![UniMP](https://img.shields.io/badge/UniMPSDK-3.8.12-forestgreen?style=flat-square)](https://nativesupport.dcloud.net.cn/README)
+[![Swift](https://img.shields.io/badge/Swift-5.8-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.8-Orange?style=flat-square)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS13+-yellowgreen?style=flat-square)](https://img.shields.io/badge/Platforms-iOS13+-Green?style=flat-square)
 [![CocoaPods tips](https://img.shields.io/badge/CocoaPods-Tips-4BC51D.svg?style=flat)](https://cocoapods.org/)
 <!-- [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square)](https://github.com/Carthage/Carthage) -->
