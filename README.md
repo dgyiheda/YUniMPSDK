@@ -72,62 +72,60 @@ A：虽然UNI官方提供了SDK，但并未提供SPM、cocoapods、Carthage依�
 [CocoaPods](http://cocoapods.org/) 是Objective-C的依赖管理器，它自动化并简化了在项目中使用第三方库的过程。 请参阅 [Get Started](http://cocoapods.org/#get_started) 有关更多详细信息的部分。
 
 #### Podfile
+<!-- # 指定私有源 -->
 <!-- source 'http://10.11.0.55/yhd-app-project/utilities/ios-librarys/YSpecs.git' -->
 ```
-# 指定私有源
-
-
 # target 中加入依赖
-target 'YhdSuperApp' do 
+target 'TestApp' do 
   platform :ios, '13.0'
-  # 默认依赖：Basic(uniMP基础库)、Audio(音频)、Accelerometer（加速传感器）、Camera(摄像头、Gallery(图片选择))、Contacts(通讯录)、NativeJs、Video（视频播放）、Zip(解压缩) 、Barcode (扫码)
-  pod 'YUniMPSDK', '~> 0.1'
+  # 默认依赖：Core(uniMP基础库)、Audio(音频)、Accelerometer（加速传感器）、Camera(摄像头、Gallery(图片选择))、Contacts(通讯录)、NativeJs、Video（视频播放）、Zip(解压缩) 、Barcode (扫码)
+  pod 'YUniMPSDK', '~> 3.8.12'
   # Basic 基础库
-  # pod 'YUniMPSDK/Basic', '~> 0.1'
+  # pod 'YUniMPSDK/Core', '~> 3.8.12'
   # 百度SDK（包含百度地图、百度定位）
-  # pod 'YUniMPSDK/BaiduSDK', '~> 0.1'
+  # pod 'YUniMPSDK/BaiduSDK', '~> 3.8.12'
   # WeChatSDK 微信SDK（包含微信分享、微信登录鉴权、微信支付）
-  # pod 'YUniMPSDK/WeChatSDK', '~> 0.1'
+  # pod 'YUniMPSDK/WeChatSDK', '~> 3.8.12'
   # AlipaySDK 支付宝支付SDK（仅支付宝支付）
-  # pod 'YUniMPSDK/AlipaySDK', '~> 0.1'
+  # pod 'YUniMPSDK/AlipaySDK', '~> 3.8.12'
   # WeiBoSDK 微博SDK（含微博分享、微博登录）
-  # pod 'YUniMPSDK/WeiBoSDK', '~> 0.1'
+  # pod 'YUniMPSDK/WeiBoSDK', '~> 3.8.12'
   # TencentQQSDK 腾讯QQSDK（含QQ分享、QQ登录）
-  # pod 'YUniMPSDK/TencentQQSDK', '~> 0.1'
+  # pod 'YUniMPSDK/TencentQQSDK', '~> 3.8.12'
   # Camera(摄像头、Gallery(图片选择))
-  # pod 'YUniMPSDK/Camera', '~> 0.1'
+  # pod 'YUniMPSDK/Camera', '~> 3.8.12'
   # Barcode (扫码)
-  # pod 'YUniMPSDK/Barcode', '~> 0.1'
+  # pod 'YUniMPSDK/Barcode', '~> 3.8.12'
   # Audio(音频)
-  # pod 'YUniMPSDK/Audio', '~> 0.1'
+  # pod 'YUniMPSDK/Audio', '~> 3.8.12'
   # Accelerometer(加速度传感器)
-  # pod 'YUniMPSDK/Accelerometer', '~> 0.1'
+  # pod 'YUniMPSDK/Accelerometer', '~> 3.8.12'
   # Contacts(通讯录)
-  # pod 'YUniMPSDK/Contacts', '~> 0.1'
+  # pod 'YUniMPSDK/Contacts', '~> 3.8.12'
   # NativeJs 
-  # pod 'YUniMPSDK/NativeJs', '~> 0.1'
+  # pod 'YUniMPSDK/NativeJs', '~> 3.8.12'
   # Messaging(短彩邮件消息)
-  # pod 'YUniMPSDK/Messaging', '~> 0.1'
+  # pod 'YUniMPSDK/Messaging', '~> 3.8.12'
   # Orientation(设备方向)
-  # pod 'YUniMPSDK/Orientation', '~> 0.1'
+  # pod 'YUniMPSDK/Orientation', '~> 3.8.12'
   # Proximity(距离传感器)
-  # pod 'YUniMPSDK/Proximity', '~> 0.1'
+  # pod 'YUniMPSDK/Proximity', '~> 3.8.12'
   # XMLHttpRequest(网络请求)
-  # pod 'YUniMPSDK/XMLHttpRequest', '~> 0.1'
+  # pod 'YUniMPSDK/XMLHttpRequest', '~> 3.8.12'
   # Zip(解压缩)
-  # pod 'YUniMPSDK/Zip', '~> 0.1'
+  # pod 'YUniMPSDK/Zip', '~> 3.8.12'
   # Fingerprint(指纹识别)
-  # pod 'YUniMPSDK/Fingerprint', '~> 0.1'
+  # pod 'YUniMPSDK/Fingerprint', '~> 3.8.12'
   # Video（视频播放）
-  # pod 'YUniMPSDK/Video', '~> 0.1'
+  # pod 'YUniMPSDK/Video', '~> 3.8.12'
   # FaceId（人脸识别）
-  # pod 'YUniMPSDK/FaceId', '~> 0.1'
+  # pod 'YUniMPSDK/FaceId', '~> 3.8.12'
   # BlueTooth(蓝牙)
-  # pod 'YUniMPSDK/BlueTooth', '~> 0.1'
+  # pod 'YUniMPSDK/BlueTooth', '~> 3.8.12'
   # Sqlite（数据库）
-  # pod 'YUniMPSDK/Sqlite', '~> 0.1'
+  # pod 'YUniMPSDK/Sqlite', '~> 3.8.12'
   # iBeacon（轻蓝牙）
-  # pod 'YUniMPSDK/iBeacon', '~> 0.1'
+  # pod 'YUniMPSDK/iBeacon', '~> 3.8.12'
 end
 ```
 
