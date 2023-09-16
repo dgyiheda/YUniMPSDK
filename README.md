@@ -1,7 +1,7 @@
-# YUniMP（怡合达Uni原生小程序SDK）
+# YUniMPSDK（怡合达Uni原生小程序SDK）
 
 - Y：怡合达
-- UniMP：uniapp原生小程序
+- UniMPSDK：uniapp原生小程序SDK
 
 <p align="center" >
   <img src="https://yhd-fe-monitor.oss-cn-shenzhen.aliyuncs.com/static/images/code.png" title="logo" float=left>
