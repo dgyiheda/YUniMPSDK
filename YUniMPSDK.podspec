@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YUniMPSDK'
-  s.version          = '3.8.12'
+  s.version          = '3.96'
   s.summary          = 'uniapp 原生小程序SDK'
   s.homepage         = 'https://github.com/dgyiheda/YUniMPSDK'
   s.license = 'MIT'
