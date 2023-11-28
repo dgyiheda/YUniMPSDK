@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.source = {:http => 'http://127.0.0.1:5500/YUniMPSDK_8.zip'}
   s.swift_versions = '5.7'
   # s.social_media_url = 'https://twitter.com/artsyopensource'
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   s.module_name = 'YUniMPSDK'
   # pods工程配置项
   s.pod_target_xcconfig = {
@@ -31,13 +31,13 @@ Pod::Spec.new do |s|
   # 编译标志
   # s.compiler_flags = "-Wall -Werror -Wextra"
   # 默认模块
-  s.default_subspecs = %w[Core Barcode NativeJs Audio Camera Contacts Video Zip]
+  s.default_subspecs = %w[Barcode NativeJs Audio Camera Contacts Video Zip]
   # s.static_framework = false
 
   # 划分子模块
   # UniMPSDK Basic 基础库
   s.subspec 'Basic' do |bs|
-    bs.ios.deployment_target = '11.0'
+    bs.ios.deployment_target = '12.0'
     bs.public_header_files = ['UniMPSDK/Core/Headers/**/*.h','UniMPSDK/Core/Headers/*.h']
     bs.source_files = ['UniMPSDK/Core/Headers/**/*.h','UniMPSDK/Core/Headers/**/*.h']
     # 依赖的系统库
@@ -108,7 +108,6 @@ Pod::Spec.new do |s|
         'iconv.2'
     ]
   end
- 
  
   # UniMPSDK native.js
   s.subspec 'NativeJs' do |n|
@@ -423,9 +422,9 @@ Pod::Spec.new do |s|
   end
 
   # UniMPSDK Core（核心组件代码）
-  s.subspec 'Core' do |c|
-    c.ios.dependency 'YUniMPSDK/Basic'
-    c.source_files = ['YUniMPSDK/Core/*.{swift,h}']
-  end
+  #  s.subspec 'Core' do |c|
+  #    c.ios.dependency 'YUniMPSDK/Basic'
+  #    c.source_files = ['YUniMPSDK/Core/*.{swift,h}']
+  #  end
   
 end

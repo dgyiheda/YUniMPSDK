@@ -1,8 +1,9 @@
-platform :ios, '11.0'
+platform :ios, '12.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'YUniMPSDKDome' do
-  pod 'YUniMPSDK', '~> 3.8', :modular_headers => true
-  pod 'YUniMPSDK/BaiduSDK','~> 3.8',:modular_headers => true
+  pod "YUniMPSDK" , :path =>'../../../YUniMPSDK', :modular_headers => true
+  #// pod 'YUniMPSDK', '~> 3.8', :modular_headers => true
+  #// pod 'YUniMPSDK/BaiduSDK','~> 3.8',:modular_headers => true
 end

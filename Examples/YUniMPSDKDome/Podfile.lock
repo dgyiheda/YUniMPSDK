@@ -1,36 +1,34 @@
 PODS:
-  - YUniMPSDK (3.8.12):
-    - YUniMPSDK/Audio (= 3.8.12)
-    - YUniMPSDK/Barcode (= 3.8.12)
-    - YUniMPSDK/Camera (= 3.8.12)
-    - YUniMPSDK/Contacts (= 3.8.12)
-    - YUniMPSDK/Core (= 3.8.12)
-    - YUniMPSDK/NativeJs (= 3.8.12)
-    - YUniMPSDK/Video (= 3.8.12)
-    - YUniMPSDK/Zip (= 3.8.12)
-  - YUniMPSDK/Audio (3.8.12)
-  - YUniMPSDK/BaiduSDK (3.8.12)
-  - YUniMPSDK/Barcode (3.8.12)
-  - YUniMPSDK/Basic (3.8.12)
-  - YUniMPSDK/Camera (3.8.12)
-  - YUniMPSDK/Contacts (3.8.12)
-  - YUniMPSDK/Core (3.8.12):
+  - YUniMPSDK (3.96):
+    - YUniMPSDK/Audio (= 3.96)
+    - YUniMPSDK/Barcode (= 3.96)
+    - YUniMPSDK/Camera (= 3.96)
+    - YUniMPSDK/Contacts (= 3.96)
+    - YUniMPSDK/Core (= 3.96)
+    - YUniMPSDK/NativeJs (= 3.96)
+    - YUniMPSDK/Video (= 3.96)
+    - YUniMPSDK/Zip (= 3.96)
+  - YUniMPSDK/Audio (3.96)
+  - YUniMPSDK/Barcode (3.96)
+  - YUniMPSDK/Basic (3.96)
+  - YUniMPSDK/Camera (3.96)
+  - YUniMPSDK/Contacts (3.96)
+  - YUniMPSDK/Core (3.96):
     - YUniMPSDK/Basic
-  - YUniMPSDK/NativeJs (3.8.12)
-  - YUniMPSDK/Video (3.8.12)
-  - YUniMPSDK/Zip (3.8.12)
+  - YUniMPSDK/NativeJs (3.96)
+  - YUniMPSDK/Video (3.96)
+  - YUniMPSDK/Zip (3.96)
 
 DEPENDENCIES:
-  - YUniMPSDK (~> 3.8)
-  - YUniMPSDK/BaiduSDK (~> 3.8)
+  - YUniMPSDK (from `../../../YUniMPSDK`)
 
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - YUniMPSDK
+EXTERNAL SOURCES:
+  YUniMPSDK:
+    :path: "../../../YUniMPSDK"
 
 SPEC CHECKSUMS:
-  YUniMPSDK: c5ce400d5534a98abbe1d239887a5cff9c3dfa8e
+  YUniMPSDK: 39bd4a1e46a4ac2b54bc3a9f903f44313ce30c05
 
-PODFILE CHECKSUM: dee5f50fa53ead300dc724480383f49b01849f4f
+PODFILE CHECKSUM: 7bb8cee520d934723bdb95ac9f26237349a608d3
 
 COCOAPODS: 1.12.0
