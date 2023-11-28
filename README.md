@@ -7,9 +7,9 @@
   <img src="https://yhd-fe-monitor.oss-cn-shenzhen.aliyuncs.com/static/images/code.png" title="logo" float=left>
 </p>
 
-[![UniMP](https://img.shields.io/badge/UniMPSDK-3.8.12-forestgreen?style=flat-square)](https://nativesupport.dcloud.net.cn/README)
-[![Swift](https://img.shields.io/badge/Swift-5.8-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.8-Orange?style=flat-square)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS11+-yellowgreen?style=flat-square)](https://img.shields.io/badge/Platforms-iOS11+-Green?style=flat-square)
+[![UniMP](https://img.shields.io/badge/UniMPSDK-3.96-forestgreen?style=flat-square)](https://nativesupport.dcloud.net.cn/README)
+[![Swift](https://img.shields.io/badge/Swift-5.7-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.8-Orange?style=flat-square)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS12+-yellowgreen?style=flat-square)](https://img.shields.io/badge/Platforms-iOS12+-Green?style=flat-square)
 [![CocoaPods tips](https://img.shields.io/badge/CocoaPods-Tips-4BC51D.svg?style=flat)](https://cocoapods.org/)
 <!-- [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square)](https://github.com/Carthage/Carthage) -->
 <!-- [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square) -->
@@ -200,7 +200,7 @@ end
 ### 环境要求
 
 <!-- - [Swift Package Manager >=5.7](https://github.com/apple/swift-package-manager) -->
-- [Cocoapods >= 1.11.x](https://guides.cocoapods.org/using/getting-started.html)
+- [Cocoapods >= 1.14.x](https://guides.cocoapods.org/using/getting-started.html)
 - [XCode >= 14.x+](https://apps.apple.com/cn/app/xcode/id497799835)
 
 

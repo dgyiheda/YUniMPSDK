@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.author           = { 'tanhao' => '1779084072@qq.com' }
   s.source           = { :git => 'https://github.com/dgyiheda/YUniMPSDK.git', :tag => "#{s.version}" }
-  # s.source = {:http => 'http://127.0.0.1:5500/YUniMPSDK_8.zip'}
   s.swift_versions = '5.7'
   # s.social_media_url = 'https://twitter.com/artsyopensource'
   s.ios.deployment_target = '12.0'
@@ -22,18 +21,16 @@ Pod::Spec.new do |s|
   # pods工程配置项
   s.pod_target_xcconfig = {
      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+     'OTHER_LDFLAGS' => '-ld64',
   }
   # 主工程配置项
   s.user_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    'OTHER_LDFLAGS' => '-ld64',
   }
   s.requires_arc = false
-  # 编译标志
-  # s.compiler_flags = "-Wall -Werror -Wextra"
   # 默认模块
-  s.default_subspecs = %w[Barcode NativeJs Audio Camera Contacts Video Zip]
-  # s.static_framework = false
-
+  s.default_subspecs = %w[Core Barcode NativeJs Audio Camera Contacts Video Zip]
   # 划分子模块
   # UniMPSDK Basic 基础库
   s.subspec 'Basic' do |bs|
@@ -422,9 +419,9 @@ Pod::Spec.new do |s|
   end
 
   # UniMPSDK Core（核心组件代码）
-  #  s.subspec 'Core' do |c|
-  #    c.ios.dependency 'YUniMPSDK/Basic'
-  #    c.source_files = ['YUniMPSDK/Core/*.{swift,h}']
-  #  end
+  s.subspec 'Core' do |c|
+    c.ios.dependency 'YUniMPSDK/Basic'
+    c.source_files = ['YUniMPSDK/Core/*.{swift,h}']
+  end
   
 end
