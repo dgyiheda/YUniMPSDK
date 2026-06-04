@@ -53,9 +53,6 @@ A：虽然UNI官方提供了SDK，但并未提供SPM、cocoapods、Carthage依�
 - [x] UniMP原生小程序外部分享（微信分享、QQ分享、新浪微博分享）
 - [x] UniMP原生小程序地图（百度）
 - [x] UniMP原生小程序Video（视频播放）
-- [ ] UniMP原生小程序语音输入（百度）
-- [ ] UniMP原生小程序友盟统计
-- [ ] UniMP原生小程序直播推流（又拍云）
 
 
 ## 安装
